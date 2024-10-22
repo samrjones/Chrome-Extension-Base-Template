@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": [
-        "amazon.com"
+         "https://*.amazon.com/*"
       ],
       "js": [
         "content.js"
@@ -23,7 +23,7 @@
     ]
   },
   "browser_action": {
-    "default_icon": "logo.png",
+    // "default_icon": "logo.png",
     "default_popup": "index.html",
     "default_title": "A tooltip popup description when you hover over the Chrome Extension icon."
   }
