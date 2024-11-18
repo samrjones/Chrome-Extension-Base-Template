@@ -1,0 +1,7 @@
+{
+  "[javascript]": {
+    "editor.tabSize": 6,
+    "editor.detectIndentation": false
+  },
+  "editor.indentSize": "tabSize"
+}
